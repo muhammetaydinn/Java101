@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class NotOrtalamasi {
   
-
     public static void NotOrtalamasi() {
         int total=0;
         Scanner sc=new Scanner(System.in);
