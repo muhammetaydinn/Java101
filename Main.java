@@ -13,6 +13,7 @@ public class Main {
         // HesapMakinesi hm=new HesapMakinesi();
         // ullaniciGirisi kg=new KullaniciGirisi();
         //DersGecme dg = new DersGecme();
+        //Sicaklik sicaklik = new Sicaklik();
 
     }
 }
