@@ -14,6 +14,7 @@ public class Main {
         // ullaniciGirisi kg=new KullaniciGirisi();
         //DersGecme dg = new DersGecme();
         //Sicaklik sicaklik = new Sicaklik();
+        //Siralama s = new Siralama();
 
     }
 }
