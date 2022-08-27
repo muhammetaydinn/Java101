@@ -1,6 +1,7 @@
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
        // NotOrtalamasi.NotOrtalamasi();
        //KDVTutari.KDVTutari();
        //Hipotenus.Hipotenus();
@@ -9,6 +10,7 @@ public class Main {
        //AlanCevreAlan.AlanCevreAlan();
        //VKI.VKI();
        //ManavKasa.ManavKasa();
+       //HesapMakinesi hm=new HesapMakinesi();
 
 
 
