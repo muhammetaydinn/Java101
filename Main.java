@@ -12,6 +12,7 @@ public class Main {
        //ManavKasa.ManavKasa();
        //HesapMakinesi hm=new HesapMakinesi();
        //ullaniciGirisi kg=new KullaniciGirisi();
+       //DersGecme dg=new DersGecme();
 
 
 
