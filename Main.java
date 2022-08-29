@@ -25,7 +25,9 @@ public class Main {
      * // IkininUssu iu = new IkininUssu();
      *  Kombinasyon k = new Kombinasyon();
      */
+    UsluSayi u = new UsluSayi();
     
+
    
 
   }
