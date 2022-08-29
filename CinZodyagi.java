@@ -6,17 +6,10 @@ public class CinZodyagi {
     public CinZodyagi() throws NumberFormatException, IOException{
         int yil;
         BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Dogum yilinizi giriniz: ");
         yil=Integer.parseInt(bf.readLine());
         int kalanyil=yil%12;
         String[] zodyak={"Maymun","Horoz","Köpek","Domuz","Fare","Öküz","Kaplan","Tavşan","Ejderha","Yılan","At","Koyun"};
         System.out.println("Cin Zodyagi Burcunuz : "+zodyak[kalanyil]);
-
-
-        
-        
-        
-        
-
-        
     }
 }
