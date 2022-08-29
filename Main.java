@@ -23,7 +23,10 @@ public class Main {
      * // UceDordeTamBolunenler udtb = new UceDordeTamBolunenler();
      * // TekSayiToplami tst = new TekSayiToplami();
      * // IkininUssu iu = new IkininUssu();
+     *  Kombinasyon k = new Kombinasyon();
      */
+    
+   
 
   }
 }
