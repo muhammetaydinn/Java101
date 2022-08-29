@@ -19,6 +19,9 @@ public class Main {
         //CinZodyagi cz = new CinZodyagi();
         //UcakBiletFiyat ub = new UcakBiletFiyat();
         //ArtikYilHesaplama ayh = new ArtikYilHesaplama();
+       // UceDordeTamBolunenler udtb = new UceDordeTamBolunenler();
 
+        
+      
     }
 }
