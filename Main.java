@@ -24,8 +24,12 @@ public class Main {
      * // TekSayiToplami tst = new TekSayiToplami();
      * // IkininUssu iu = new IkininUssu();
      *  Kombinasyon k = new Kombinasyon();
-     */
     UsluSayi u = new UsluSayi();
+    ArmstrongNumber armstrong = new ArmstrongNumber();
+
+     * 
+     */
+    
     
 
    
