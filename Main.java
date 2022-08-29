@@ -2,7 +2,8 @@ import java.io.IOException;
 
 public class Main {
   public static void main(String[] args) throws IOException {
-      //YildizElmas yildizElmas = new YildizElmas();
+      // ATM atm = new ATM();
+      // YildizElmas yildizElmas = new YildizElmas();
       // HarmonikSeri harmonikSeri = new HarmonikSeri();
       // NotOrtalamasi.NotOrtalamasi();
       // KDVTutari.KDVTutari();
