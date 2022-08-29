@@ -16,6 +16,7 @@ public class Main {
         //Sicaklik sicaklik = new Sicaklik();
         //Siralama s = new Siralama();
         //BurcProgrami bp = new BurcProgrami();
+        //CinZodyagi cz = new CinZodyagi();
 
     }
 }
