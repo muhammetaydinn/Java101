@@ -10,13 +10,5 @@ public class CinZodyagi {
         int kalanyil=yil%12;
         String[] zodyak={"Maymun","Horoz","Köpek","Domuz","Fare","Öküz","Kaplan","Tavşan","Ejderha","Yılan","At","Koyun"};
         System.out.println("Cin Zodyagi Burcunuz : "+zodyak[kalanyil]);
-
-
-        
-        
-        
-        
-
-        
     }
 }
