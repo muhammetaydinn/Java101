@@ -20,6 +20,8 @@ public class Main {
         //UcakBiletFiyat ub = new UcakBiletFiyat();
         //ArtikYilHesaplama ayh = new ArtikYilHesaplama();
        // UceDordeTamBolunenler udtb = new UceDordeTamBolunenler();
+       //TekSayiToplami tst = new TekSayiToplami();
+       
 
         
       
