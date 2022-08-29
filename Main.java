@@ -2,6 +2,7 @@ import java.io.IOException;
 
 public class Main {
   public static void main(String[] args) throws IOException {
+      // MinMax mm = new MinMax();
       // EbobEkok ebok = new EbobEkok();
       // ATM atm = new ATM();
       // YildizElmas yildizElmas = new YildizElmas();
