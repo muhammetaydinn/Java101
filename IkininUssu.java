@@ -9,7 +9,7 @@ public class IkininUssu {
         System.out.print("Sayi giriniz: ");
         try{
         sayi = Integer.parseInt(br.readLine());
-        for (int i = 0; i < sayi; i++) {
+        for (int i = 0; i <= Math.pow(2, sayi); i++) {
             if (i % 4 == 0) {
                 System.out.println(i);
 
