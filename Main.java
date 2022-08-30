@@ -2,6 +2,7 @@ import java.io.IOException;
 
 public class Main {
   public static void main(String[] args) throws IOException {
+      // PalindromSayi palindromSayi = new PalindromSayi();
       // FibonacciSerisi fs = new FibonacciSerisi();
       // AsalSayi asal = new AsalSayi();
       // YildizTersUcgen ytu = new YildizTersUcgen();
