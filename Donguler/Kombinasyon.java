@@ -18,6 +18,7 @@ public class Kombinasyon {
         int n_rFactorial = factorial(n-r);
 
         System.out.println("The answer is: " + nfactorial/(rfactorial*n_rFactorial));
+        sc.close();
 
 
         

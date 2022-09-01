@@ -9,5 +9,6 @@ public class UsluSayi {
         System.out.print("Ikinci Sayi giriniz: ");
         b = sc.nextInt();
         System.out.println("Toplam: " + Math.pow(a,b));
+        sc.close();
     }
 }

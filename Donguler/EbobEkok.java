@@ -10,6 +10,7 @@ public class EbobEkok {
         b = sc.nextInt();
         System.out.println("Ebob: " + ebob(a, b));
         System.out.println("Ekok: " + ekok(a, b));
+        sc.close();
     }
 
     public int ebob(int a, int b) {

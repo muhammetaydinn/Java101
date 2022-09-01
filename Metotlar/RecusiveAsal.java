@@ -7,6 +7,7 @@ public class RecusiveAsal {
         System.out.print("Sayi Giriniz : ");
         int number = scan.nextInt();
         System.out.println(number +" sayisi " + (isPrime(number)==true ? "Asaldir." :"Asal Degil") );
+        scan.close();
     }
     
     public boolean isPrime(int number) {

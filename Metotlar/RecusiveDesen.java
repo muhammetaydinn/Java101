@@ -9,6 +9,7 @@ public class RecusiveDesen {
         a = scan.nextInt();
         System.out.print("Ciktisi : " + a);
         dongu(a,a);
+        scan.close();
         
     }
 

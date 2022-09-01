@@ -38,6 +38,7 @@ public class YildizElmas {
             
             System.out.println("");
         }
+        sc.close();
        
         
       

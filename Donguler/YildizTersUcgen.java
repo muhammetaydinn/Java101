@@ -19,6 +19,7 @@ public class YildizTersUcgen {
 
             System.out.println("");
         }
+        sc.close();
 
     }
 }

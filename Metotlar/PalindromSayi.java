@@ -17,5 +17,6 @@ public class PalindromSayi {
         } else {
             System.out.println("Palindrom sayi değildir.");
         }
+        scanner.close();
     }
 }

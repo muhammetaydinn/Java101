@@ -18,6 +18,7 @@ public class ArmstrongNumber {
         } else {
             System.out.println("Sayi Armstrong sayi degil");
         }
+        sc.close();
         
     }
 }

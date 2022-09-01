@@ -50,6 +50,7 @@ public class PratikHesapMak {
                     System.out.println("Yanlış bir değer girdiniz, tekrar deneyiniz.");
             }
         } while (select != 0);
+        scan.close();
         
     }
 
@@ -73,6 +74,7 @@ public class PratikHesapMak {
             result += number;
         }
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void minus() {
@@ -92,6 +94,7 @@ public class PratikHesapMak {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void times() {
@@ -113,6 +116,7 @@ public class PratikHesapMak {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void divided() {
@@ -136,6 +140,7 @@ public class PratikHesapMak {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void power() {
@@ -151,6 +156,7 @@ public class PratikHesapMak {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void factorial() {
@@ -164,6 +170,7 @@ public class PratikHesapMak {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void modAlma() {
@@ -174,6 +181,7 @@ public class PratikHesapMak {
         int m = scan.nextInt();
 
         System.out.println("Sonuc :" + n % m);
+        scan.close();
     }
 
     static void dikdortgen() {
@@ -184,5 +192,6 @@ public class PratikHesapMak {
         System.out.println("Kisa kenar uzunlugunu giriniz :");
         kisa = scan.nextInt();
         System.out.println("Alan: " + uzun * kisa + "\nCevre:" + (uzun + kisa) * 2);
+        scan.close();
     }
 }

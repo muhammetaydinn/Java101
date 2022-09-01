@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FibonacciSerisi {
     public FibonacciSerisi() {
-        int sayi, n1, n2, n3, n0;
+        int sayi, n1, n2, n3;
         Scanner sc = new Scanner(System.in);
         System.out.print("Sayi giriniz: ");
         sayi = sc.nextInt();
@@ -18,5 +18,6 @@ public class FibonacciSerisi {
             n2 = n3;
 
         }
+        sc.close();
     }
 }

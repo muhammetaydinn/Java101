@@ -17,6 +17,7 @@ public class MukemmelSayi {
         else{
             System.out.println("Mukemmel sayi degil");
         }
+        sc.close();
 
 
     }

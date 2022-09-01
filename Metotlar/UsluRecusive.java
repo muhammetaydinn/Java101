@@ -9,6 +9,7 @@ public class UsluRecusive {
         System.out.print("Exponent :");
         int exponent = scan.nextInt();
         System.out.println("Result :" + power(base, exponent));
+        scan.close();
        
     }
     

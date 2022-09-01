@@ -6,6 +6,7 @@ public class RecusiveFibonacci{
         System.out.println("Bir sayı giriniz:");
         int sayi = scanner.nextInt();
         System.out.println(fibonacci(sayi));
+        scanner.close();
     }
     public int fibonacci(int sayi){
         if(sayi == 0){

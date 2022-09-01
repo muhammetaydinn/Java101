@@ -68,6 +68,7 @@ public class ATM {
                     break;
             }
         }
+        input.close();
         
        
 

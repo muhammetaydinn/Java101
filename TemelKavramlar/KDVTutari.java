@@ -1,3 +1,5 @@
+package TemelKavramlar;
+
 import java.util.Scanner;
 
 public class KDVTutari {
