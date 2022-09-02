@@ -1,5 +1,6 @@
 import java.io.IOException;
 
+import Siniflar.Boks.BoksMain;
 import Siniflar.OgrenciBS.PratikObsMain;
 
 
@@ -7,6 +8,8 @@ public class Main {
     public static void main(String[] args) throws NumberFormatException, IOException {
         //Sınıflar
         //new PratikObsMain();
+        //new BoksMain();
+        
 
 
 
