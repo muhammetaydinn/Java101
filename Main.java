@@ -2,19 +2,17 @@ import java.io.IOException;
 
 import Siniflar.Boks.BoksMain;
 import Siniflar.OgrenciBS.PratikObsMain;
+import Siniflar.SalarayCalulator.Employee;
 
 
 public class Main {
     public static void main(String[] args) throws NumberFormatException, IOException {
-        //Sınıflar
-        //new PratikObsMain();
-        //new BoksMain();
-        
-
-
-
-
     /* 
+        // Sınıflar
+        // new PratikObsMain();
+        // new BoksMain();
+        //new Employee("Kemal", 2000, 45, 1985);
+
         //Donguler
         // new ArmstrongNumber();
         //new AsalSayi();
@@ -30,6 +28,7 @@ public class Main {
         // new UsluSayi();
         // new YildizElmas();
         // new YildizTersUcgen();
+
         //Koşullu Ifadeler
         // new ArtikYilHesaplama();
         // new BurcProgrami();
@@ -40,6 +39,7 @@ public class Main {
         // new Sicaklik();
         // new Siralama();
         // new UcakBiletFiyat();
+
         //Metotlar
         // new PalindromSayi();
         // new PratikHesapMak();
@@ -47,6 +47,7 @@ public class Main {
         // new RecusiveDesen();
         // new RecusiveFibonacci();
         // new UsluRecusive();
+
         //TemeLKavramlar
          //new AlanCevreAlan();
         // new Hipotenus();
