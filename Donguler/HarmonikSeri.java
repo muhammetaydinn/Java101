@@ -8,11 +8,12 @@ public class HarmonikSeri {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
         n = sc.nextInt();
+        sc.close();
+
         for (i = 1; i <= n; i++) {
             sum += 1.0 / i;
         }
         System.out.println("The answer is: " + sum);
 
-        sc.close();
     }
 }
