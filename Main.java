@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.util.Arrays;
 
 import Diziler.HarmonikOrtalama.HarmonikOrtalama;
+import Diziler.pratikMinMax.PratikMinMax;
 import Siniflar.Boks.BoksMain;
 import Siniflar.OgrenciBS.PratikObsMain;
 import Siniflar.SalarayCalulator.Employee;
@@ -11,6 +12,7 @@ public class Main {
     public static void main(String[] args) throws NumberFormatException, IOException {
         //Diziler
         //new HarmonikOrtalama();
+        //new PratikMinMax();
 
     /* 
         // Sınıflar
