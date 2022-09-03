@@ -1,12 +1,9 @@
 import java.io.IOException;
 import java.util.Arrays;
 
-import Diziler.HarmonikOrtalama.HarmonikOrtalama;
-import Diziler.PratikArray.PratikArrayLetter;
-import Diziler.pratikMinMax.PratikMinMax;
-import Siniflar.Boks.BoksMain;
-import Siniflar.OgrenciBS.PratikObsMain;
-import Siniflar.SalarayCalulator.Employee;
+import Diziler.*;
+import Diziler.PratikFolder.PratikFolder;
+import Siniflar.*;
 
 
 public class Main {
@@ -15,6 +12,7 @@ public class Main {
         //new HarmonikOrtalama();
         //new PratikMinMax();
         // new  PratikArrayLetter();
+        //new PratikFolder();
      
 
     /* 
