@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.util.Arrays;
 
 import Diziler.HarmonikOrtalama.HarmonikOrtalama;
+import Diziler.PratikArray.PratikArrayLetter;
 import Diziler.pratikMinMax.PratikMinMax;
 import Siniflar.Boks.BoksMain;
 import Siniflar.OgrenciBS.PratikObsMain;
@@ -13,6 +14,8 @@ public class Main {
         //Diziler
         //new HarmonikOrtalama();
         //new PratikMinMax();
+        // new  PratikArrayLetter();
+     
 
     /* 
         // Sınıflar
