@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.util.Arrays;
 
 import Diziler.*;
+import Diziler.ElemanFrekansi.ElemanFrekansi;
 import Diziler.PratikFolder.PratikFolder;
 import Siniflar.*;
 
@@ -13,6 +14,7 @@ public class Main {
         //new PratikMinMax();
         // new  PratikArrayLetter();
         //new PratikFolder();
+      // new ElemanFrekansi();
      
 
     /* 
