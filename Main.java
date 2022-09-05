@@ -4,6 +4,7 @@ import java.util.Arrays;
 import Diziler.*;
 import Diziler.ElemanFrekansi.ElemanFrekansi;
 import Diziler.PratikFolder.PratikFolder;
+import Diziler.Transpoz.Transpoz;
 import Siniflar.*;
 
 
@@ -15,6 +16,7 @@ public class Main {
         // new  PratikArrayLetter();
         //new PratikFolder();
       // new ElemanFrekansi();
+      //new Transpoz();
      
 
     /* 
