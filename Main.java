@@ -18,6 +18,7 @@ public class Main {
       // new ElemanFrekansi();
       //new Transpoz();
       //new SayiTahmin();
+      //new Palindrom();
      
 
     /* 
