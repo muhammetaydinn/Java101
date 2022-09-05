@@ -17,6 +17,7 @@ public class Main {
         //new PratikFolder();
       // new ElemanFrekansi();
       //new Transpoz();
+      //new SayiTahmin();
      
 
     /* 
