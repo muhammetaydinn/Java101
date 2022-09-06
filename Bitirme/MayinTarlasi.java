@@ -20,38 +20,6 @@ public class MayinTarlasi {
         return matris;
     }
 
-    public void print(int[][] matris, int[][] mayinKonumu) {
-        // prints the mineswerper
-        for (int i = 0; i < mayinKonumu.length; i++) {
-            for (int j = 0; j < mayinKonumu[i].length; j++) {
-                if (mayinKonumu[i][j] == 1) {
-                    System.out.print("* ");
-                } else {
-                    System.out.print(matris[i][j] + " ");
-                }
-            }
-            System.out.println();
-        }
-
-    }
-
-    public void print2(int[][] mayinKonumu) {
-
-        for (int i = 0; i < mayinKonumu.length; i++) {
-            for (int j = 0; j < mayinKonumu[i].length; j++) {
-                if (mayinKonumu[i][j] == 1) {
-                    System.out.print("* ");
-                } else {
-                    System.out.print(mayinKonumu[i][j] + " ");
-
-                }
-            }
-            System.out.println();
-
-        }
-
-    }
-
     public int[][] mineCounter(int satirSayisi, int sutunSayisi, int[][] matris, int[][] mayinKonumu) {
         int mS = 0;
 
@@ -94,18 +62,6 @@ public class MayinTarlasi {
 
     }
 
-    public void printMayinKonum(int[][] mayinKonumu) {
-        for (int i = 0; i < mayinKonumu.length; i++) {
-            for (int j = 0; j < mayinKonumu[i].length; j++) {
-                if (mayinKonumu[i][j] == 1) {
-                    System.out.println("[" + i + "][" + j + "]" + "mayın var");
-                }
-
-            }
-
-        }
-    }
-
     public void copyTwoDimensionalArray(int[][] matris, int[][] mayinKonumu) {
         for (int i = 0; i < matris.length; i++) {
             for (int j = 0; j < matris[i].length; j++) {
@@ -139,9 +95,17 @@ public class MayinTarlasi {
         Scanner sc = new Scanner(System.in);
         System.out.print("Kaç satır olacak?:\t");
         int satirSayisi = sc.nextInt();
+        while (satirSayisi <= 2) {
+            System.out.println("Lütfen 3 ve üzeri bir sayı giriniz.");
+            satirSayisi = sc.nextInt();
+        }
 
         System.out.print("Kaç sütun olacak?:\t");
         int sutunSayisi = sc.nextInt();
+        while (sutunSayisi <= 2) {
+            System.out.println("Lütfen 3 ve üzeri bir sayı giriniz.");
+            sutunSayisi = sc.nextInt();
+        }
 
         int[][] matris = new int[satirSayisi][sutunSayisi];
         int[][] mayinKonumu = new int[satirSayisi][sutunSayisi];
@@ -158,13 +122,12 @@ public class MayinTarlasi {
         copyTwoDimensionalArray(matris, mayinKonumu);
 
         matris = mineCounter(satirSayisi, sutunSayisi, matris, mayinKonumu);
-        // print(matris, mayinKonumu);
 
         int satirNo, sutunNo;
         boolean isSteppedonMine = false;
 
         while (!isSteppedonMine) {
-            if(stepCounter+mayinSayisi==(satirSayisi*sutunSayisi)){
+            if (stepCounter + mayinSayisi == (satirSayisi * sutunSayisi)) {
                 System.out.println("Tebrikler kazandınız!");
                 break;
             }
